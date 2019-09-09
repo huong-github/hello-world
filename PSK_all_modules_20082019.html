@@ -1,0 +1,2903 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x-apple-disable-message-reformatting">
+
+    <title>PrivatSikring Content editor: editor PSK all modules</title>
+
+    
+
+
+
+
+
+
+
+
+    <style type="text/css">
+        body {
+            background-color: #ededec;
+        }
+        
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+        /* RESET STYLES */
+        
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        table {
+            border-collapse: collapse !important;
+        }
+        
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        
+        span.preheader {
+            display: none !important;
+        }
+        /* iOS BLUE LINKS */
+        
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        .padding {
+            padding: 20px 20px 20px 20px !important;
+        }
+        
+        .menu-container {
+            width: 100%;
+        }
+        
+        .tab {
+            padding-left: 40px !important
+        }
+        /* INSURANCE INFO */
+        
+        .insurance-info.header-left {
+            text-align: left !important;
+            padding-top: 0px !important;
+            padding-left: 0px !important;
+            padding-bottom: 5px !important;
+        }
+        
+        .insurance-info.header-right {
+            padding-top: 0px !important;
+            padding-bottom: 5px !important;
+        }
+        /* END INSURANCE INFO */
+        
+        b {
+            font-weight: 600 !important;
+        }
+        /* ANDROID CENTER FIX */
+        
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+        
+        a.no-underline {
+            text-decoration: none !important;
+        }
+        
+        .not-tel[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        .not-tel {
+            color: inherit !important;
+            /* Inherit text color of parent element. */
+            text-decoration: none !important;
+            /* Remove underline. */
+            /* Additional css `propery: value;` pairs here */
+        }
+        /* MOBILE STYLES */
+        
+        @media only screen and (max-width: 600px) {
+            table{
+                width: 100% !important;  
+            }
+            [class="p100"],
+            .p100 {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 400px !important;
+            }
+            *[class="hide"],
+            .hide {
+                display: none !important;
+            }
+            img.logo {
+                width: 180px !important;
+            }
+            [class="logo"],
+            .logo {
+                width: 180px !important;
+            }
+            .logo img {
+                width: 180px !important;
+            }
+            /*MENU STYLING*/
+            .menu-desktop {
+                display: none;
+            }
+            *[id]#wrapper + table,
+            *[class].container,
+            *[class].menu {
+                min-width: 0 !important;
+                -moz-text-size-adjust: none;
+                -ms-text-size-adjust: none;
+                -webkit-text-size-adjust: none;
+                width: 100% !important;
+            }
+            *[id]#logo {
+                height: 50px;
+                width: 182px;
+            }
+            *[id]#mobile-label {
+                cursor: pointer;
+                display: block !important;
+                padding: 25px;
+                -webkit-tap-highlight-color: transparent;
+                color: #FFFFFF;
+                width: 26px;
+                margin-top: -83px;
+            }
+            *[id]#mobile-label > b {
+                background-color: #FFFFFF;
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                border-radius: 2px;
+                display: block;
+                height: 4px;
+            }
+            *[id]#mobile-label > b + b {
+                margin-top: 4px;
+            }
+            *[class].menu td {
+                padding: 0 !important;
+            }
+            *[id]#menu-wrapper {
+                background-color: #050faa;
+                max-height: 0;
+                overflow: hidden;
+                -moz-transition: max-height .25s linear;
+                -o-transition: max-height .25s linear;
+                -webkit-transition: max-height .25s linear;
+                transition: max-height .25s linear;
+            }
+            *[id]#mobile-checkbox:checked + table #menu-wrapper {
+                max-height: 160px;
+                border-top: 1px solid #FFFFFF;
+            }
+            *[class].menu + .menu {
+                border-top: 1px solid #FFFFFF;
+            }
+            *[class].menu-item {
+                color: #FFFFFF !important;
+                display: block;
+                padding: 12px;
+                text-align: center;
+                font-size: 12px;
+            }
+            /* END MENU STYLING */
+            /* INSURANCE TYPE */
+            .insurance-type.btn {
+                float: left;
+                margin-left: 90px;
+            }
+            .insurance-type.text {
+                float: left;
+                padding-top: 25px;
+            }
+            .insurance-type.icon {
+                float: left;
+                padding-top: 25px;
+                padding-left: 20px;
+            }
+            /* END INSURANCE TYPE BUTTON */
+            /* BASICS */
+            .img-max {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                padding: 0 0 0 0 !important;
+            }
+            .max-width {
+                max-width: 100% !important;
+            }
+            .mobile-wrapper {
+                width: 85% !important;
+                max-width: 85% !important;
+            }
+            .mobile-padding {
+                padding-left: 5% !important;
+                padding-right: 5% !important;
+            }
+            .no-padding {
+                padding: 0 !important;
+            }
+            .mobile-hide {
+                display: none;
+            }
+            .no-border {
+                border-bottom: none !important;
+                border-right: none !important;
+                border-left: none !important;
+                border-top: none !important;
+            }
+            .width-100 {
+                width: 100% !important;
+            }
+            .width-75 {
+                width: 75% !important;
+            }
+            .width-50 {
+                width: 50% !important;
+            }
+            .width-40 {
+                width: 40% !important;
+            }
+            .width-30 {
+                width: 30% !important;
+            }
+            .width-20 {
+                width: 20% !important;
+            }
+            .height-100 {
+                height: 100px !important;
+            }
+            .height-80 {
+                height: 80px !important;
+            }
+            .height-60 {
+                height: 60px !important;
+            }
+            .height-40 {
+                height: 40px !important;
+            }
+            .height-20 {
+                height: 20px !important;
+            }
+            .height-auto {
+                height: auto !important;
+                padding-bottom: 10px !important;
+            }
+            .padding-top-100 {
+                padding-top: 100px !important;
+            }
+            .padding-top-80 {
+                padding-top: 80px !important;
+            }
+            .padding-top-60 {
+                padding-top: 60px !important;
+            }
+            .padding-top-40 {
+                padding-top: 40px !important;
+            }
+            .padding-top-20 {
+                padding-top: 20px !important;
+            }
+            .padding-top-10 {
+                padding-top: 10px !important;
+            }
+            .collapse {
+                width: 0 !important;
+            }
+            .align-left {
+                text-align: left !important;
+            }
+            /* END BASICS */
+            /* BLUE BOX */
+            .blue-box {
+                height: auto !important;
+                padding-bottom: 20px !important;
+            }
+            /* END BLUE BOX */
+            /* HEADER */
+            h1.font-mobile-header {
+                font-size: 28px !important;
+                line-height: 30px !important;
+            }
+            h2.font-mobile-header {
+                font-size: 18px !important;
+                line-height: 22px !important;
+            }
+            /* END HEADER */
+            /* FOOTER */
+            .contact-footer {
+                border-bottom: 1px solid #FFFFFF !important;
+                border-right: none !important;
+            }
+            /* END FOOTER */
+            /* HOW TO */
+            .howto.number {
+                font-size: 40px !important;
+                padding: 0 0 20px 20px !important;
+                width: 35px !important;
+            }
+            .howto.text {
+                padding: 0 80px 20px 0 !important;
+            }
+            /* END HOW TO */
+            /* INSURANCE INFO */
+            .insurance-info {
+                padding-bottom: 0px !important;
+            }
+            .insurance-info.date {
+                text-align: left !important;
+                padding-top: 0px !important;
+                padding-bottom: 20px !important;
+            }
+            .insurance-info.header-left {
+                padding-bottom: 0px !important;
+            }
+            .insurance-info.header-right {
+                text-align: left !important;
+                padding-bottom: 5px !important;
+                padding-left: 0px !important;
+            }
+            .insurance-info.tab {
+                padding-left: 20px;
+            }
+            /* END INSURANCE INFO */
+            .width-60-mobile {
+                width: 60% !important;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .img-max-xs {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                padding: 0 0 0 0 !important;
+            }
+            .max-width-xs {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+            .haft-width-mobile {
+                width: 50% !important;
+                min-width: 160px;
+            }
+            img.logo {
+                width: 160px !important;
+            }
+        }
+        @media only screen and (max-width: 360px) {
+            [class="p100"],
+            .p100 {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 320px !important;
+            }
+            .td100 {
+                width: 320px !important;
+                max-width: 320px !important;
+            }
+        }
+    </style>
+
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+</head>
+<!-- Responsys Variables starts here -->
+
+<!--    
+SetvarName: 1<br />
+SetvarDept: 1<br />
+SetvarMenu: 0<br />
+-->
+
+<body style="margin: 0 !important; padding: 0; background-color: #ededec;">
+    <div style="width:100%; height:100%; display: block; background-color: #ededec;">
+        <!-- Preheader -->
+        <span class="preheader" style="display: none !important;"></span>
+        <!-- END Preheader -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||| Hide / remove this in production||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+        <!-- <table id="sendout-meta" border="1" cellpadding="10" cellspacing="10" width="100%" bgcolor="#ededec">
+
+     <tbody>
+        <tr>
+            <td>Subjekt</td>
+            <td>test vn</td>
+        </tr>
+        <tr>
+            <td>Preheader</td>
+            <td>preheader test vn</td>
+        </tr>
+        <tr>
+            <td>Marketing Strategy</td>
+            <td>Branding</td>
+        </tr>
+        <tr>
+            <td>Marketing Program</td>
+            <td>COD_PL</td>
+        </tr>
+    </tbody>
+    </table> -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededec" style="mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||| SEE THIS EMAIL IN BROWSERs ||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+            <tr>
+                <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+
+                    <table class="p100" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="40" style="max-width:600px;border-collapse: collapse; border-spacing: 0; table-layout: fixed; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+
+                        <tr>
+
+                            <td valign="top" align="right">
+                                <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 580px; mso-cellspacing: 0; mso-padding-alt: 0;" width="580" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
+                                    <tbody>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" valign="middle" style="padding:0 0 0 0; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; font-size: 13px; line-height: 16px;">
+                                                <a style="color:#97999b; text-decoration:none; " href="http://kundemail.privatsikring.dk/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlYQGruzalf68b3UJMjzakcBczc8vzgCIzf22fEy1HzgbHMHe0zbi2SiRVXMtX%3DYQpglLjHJlYQGruzalf68b3UJMjzakcBczc8vzg1J03zcprCO4q737R517P0MFfVXyjLNpLOfhKLX%3D&_ei_=EvEsifAEUjdOl_el3dB2gL4" target="_blank">Se e-mailen i en browser</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+
+                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                        </tr>
+
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||| END SEE THIS EMAIL IN BROWSER ||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||| TOP BLUE BAR WITH LOGO ||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+            <tr>
+                <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                    <table class="p100" style="background-color: #FFFFFF; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" align="center" role="presentation">
+                        <tbody>
+                            <tr>
+                                <td valign="top" align="center">
+
+                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" align="left" bgcolor="#FFFFFF" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                                <td valign="top" align="right">
+                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 560px; mso-cellspacing: 0; mso-padding-alt: 0;" width="560" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top" align="right">
+                                                                    <!--===================================================-->
+                                                                    <!--|                   LOGO IMAGE                   |-->
+                                                                    <!--===================================================-->
+                                                                    <a class="logo" href="https://www.privatsikring.dk/" target="_blank" style="border: none; color: inherit; display: block; font-family: 'Open Sans', sans-serif; font-size: inherit; outline: none; text-decoration: none; width: 245px;">
+                                                                        <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/2019_PSK_Logo_RGB_Orange_Grey.png" alt="logo" style="-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; text-decoration: none; width: 245px;" mc:edit="s1 img 1" editable="true" width="245" border="0">
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||| END TOP BLUE BAR WITH LOGO ||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||| MAIN CONTENT GOES HERE ||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+     <!-- 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||   2 HORIZONTAL BLOCKS - IMAGE & WHITE *  ||||||||| 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+            <tr>
+                <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table class="p100" style="background-color: #F4F4F4; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" role="presentation">
+                        <tbody>
+                            <tr>
+                                <td valign="top" align="center">
+                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" align="left">
+                                                    <!--[if gte mso 9]>
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" role="presentation">
+                        <tr>
+                        <td align="left" valign="top" width="400">
+                        <![endif]-->
+                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 400px; mso-cellspacing: 0; mso-padding-alt: 0;" width="400" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" align="center">
+                                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 400px; mso-cellspacing: 0; mso-padding-alt: 0;" width="400" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td valign="top" align="center" style="font-size:16px; line-height:20px;">
+                                                                                    <a href="https://www.privatsikring.dk/" class="p100" style="border: none; color: inherit; display: block; font-family: 'Open Sans', sans-serif; font-size: inherit; outline: none; text-decoration: none;">
+                                                                                        <img src="https://dummyimage.com/400x280/dedede/ffffff" alt="image" class="p100" style="-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; text-decoration: none; width: 400px;font-size: 16px;line-height: 20px" editable="true" width="400" border="0">
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!--[if gte mso 9]>
+                        </td>
+                        <td align="left" valign="top" width="200">
+                        <![endif]-->
+                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 200px; mso-cellspacing: 0; mso-padding-alt: 0;" width="200" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                                                <td valign="top" align="center">
+                                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td valign="top" align="center">
+                                                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                                        <tbody>
+
+                                                                                            <tr>
+                                                                                                <td valign="top" align="left">
+                                                                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td align="left" valign="top" class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif;  line-height: 24px; color:#4F5250; font-size: 20px; font-weight: bold; font-size: 20px; font-weight: bold;">
+                                                                                                                    headline block 2 horizontal image white 
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                                                            </tr>
+
+                                                                                                            <tr>
+                                                                                                                <td align="left" valign="top" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 12px;">
+                                                                                                                    copy block 2 horizontal image white
+                                                                                                                </td>
+                                                                                                            </tr>                                                                                                        
+                                                                                                            <tr>
+                                                                                                                <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; font-size: 12px; line-height: 16px;" valign="top" align="left">
+                                                                                                                    
+     <br><br><a class="no-underline" style="color:#FFA500; text-decoration: none; font-weight: 600;" href="https://www.privatsikring.dk/">link1</a>                                                                                                            </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                                                            </tr>
+
+                                                                                                            <tr>
+                                                                                                                <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!--[if gte mso 9]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            <!-- 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||| END 2 HORIZONTAL BLOCKS - IMAGE & WHITE ||||||||| 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+                
+<body><html>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||| 3 HORIZONTAL BLOCKS * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+            <tr>
+                <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" bgcolor="#ededec">
+                        <tbody>
+                            <tr>
+                                 <td style="font-size: 0;" valign="top" align="center">
+
+                                <!-- ||||||||||||||| BLOCK 1 |||||||||||||||| -->
+                                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="left" valign="top" width="200" height="280" bgcolor="#CCC9C4"><![endif]-->
+                                    <div class="p100" style="width: 100%;max-width: 200px;display: inline-block; vertical-align: top; height:280px;">
+                                        <table class="p100" role="presentation" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;width: 200px; height: 280px;" width="200" height="280" cellspacing="0" cellpadding="0" border="0" bgcolor="#CCC9C4" align="center">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                                
+    <td valign="top" align="center">
+        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left">
+            <tbody>
+                <tr>
+                    <td valign="top" align="center">
+                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tbody>
+
+                                <tr>
+                                    <td valign="top" align="left">
+                                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 34px; line-height: 34px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="height-auto" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 20px; font-weight: bold; line-height: 22px; color:#4F5250;" valign="top" align="left">
+                                                        1block 3  <span style="color::#COLOR_DARK;">blocks</span>  horizontal
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; line-height: 24px; color:#FFFFFF; font-size: 12px;">
+                                                                block 3 blocks horizontal2
+                                                        </td>
+                                                    </tr>
+                                              <tr>
+                                                    <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; font-size: 14px; line-height: 18px;" valign="top" align="left">                                                      
+                                                    <tr>
+  <td align="left" valign="top" height="25" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif;font-weight: Bold; font-size: 12px; line-height: 18px;"><br /><a style="color:#4F5250; text-decoration: none;" href="https://www.privatsikring.dk">link1</a></td>
+</tr>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+    
+    <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- ||||||||||||||| END BLOCK 1 |||||||||||||||| -->
+
+<!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="200" height="280" bgcolor="#4F5250"><![endif]-->
+
+<!-- ||||||||||||||| BLOCK 2 |||||||||||||||| -->
+<div class="p100" style="width: 100%;max-width: 200px;display: inline-block; vertical-align: top; height: 280px;">
+<table class="p100" role="presentation" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;width: 200px; height: 280px;" width="200" height="280" cellspacing="0" cellpadding="0" border="0" bgcolor="#4F5250" align="center">
+<tbody>
+<tr>
+    <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+    
+    <td valign="top" align="center">
+        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left">
+            <tbody>
+                <tr>
+                    <td valign="top" align="center">
+                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tbody>
+
+                                <tr>
+                                    <td valign="top" align="left">
+                                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 34px; line-height: 34px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="height-auto" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; line-height: 24px; color:#FFFFFF; font-size: 20px; font-weight: bold;" valign="top" align="left">
+                                                        2block 3  <span style="color:#FFA500;">blocks</span>  horizontal
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; line-height: 24px; color:#FFFFFF; font-size: 12px;">
+                                                            block 3 blocks horizontal2
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; font-size: 14px; line-height: 18px;" valign="top" align="left">                                                      
+                                                        <tr>
+      <td align="left" valign="top" height="25" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif;font-weight: Bold; font-size: 12px; line-height: 18px;"><br /><a style="color:#4F5250; text-decoration: none;" href="https://www.privatsikring.dk">link1</a></td>
+    </tr>
+                                                        </td>
+                                                    </tr>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+    
+    <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- ||||||||||||||| END BLOCK 2 |||||||||||||||| -->
+
+<!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="200" height="280" bgcolor="#FFA500"><![endif]-->
+
+<!-- ||||||||||||||| BLOCK 3 |||||||||||||||| -->
+
+<div class="p100" style="width: 100%; max-width: 200px;display: inline-block; vertical-align: top; height: 280px;">
+<table class="p100" role="presentation" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;width: 200px; height: 280px" width="200" height="280" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFA500">
+<tbody>
+<tr>
+    <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+    
+    <td valign="top" align="center">
+        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left">
+            <tbody>
+                <tr>
+                    <td valign="top" align="center">
+                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tbody>
+
+                                <tr>
+                                    <td valign="top" align="left">
+                                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 34px; line-height: 34px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="height-auto" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; line-height: 24px; color:#FFFFFF; font-size: 20px; font-weight: bold;" valign="top" align="left">
+                                                        3block 3  <span style="color:#4F5250;">blocks</span>  horizontal
+                                                    </td>
+                                                </tr>
+                                               <tr>
+                                                    <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: bold; font-size: 12px;" valign="top" align="left">
+                                                        
+                                                            <tr>
+  <td align="left" valign="top" height="25" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif;font-weight: bold; font-size: 12px; line-height: 18px;"><br/><a style="color:#4F5250; text-decoration: none;" href="https://www.privatsikring.dk">link3</a></td>
+</tr>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+                                                
+                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                <!-- ||||||||||||||| END BLOCK 3 |||||||||||||||| -->
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||| END 3 HORIZONTAL BLOCKS ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||| IMAGE FULL WIDTH *||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+            <tr>
+                <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table class="p100" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#050faa" width="600" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td width="100%" style="max-width:600px;">
+                                <img src="https://static.cdn.responsys.net/i5/responsysimages/content/codand/PSK_Velkommen_600x280px.jpg" class="img-max" width="600" height="280" border="0" alt="ImgFullWidth" style="display: block; border: 0px;">
+                            </td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||| END IMAGE FULL WIDTH ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||| BACKGROUND FULL WIDTH + TEXT *||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+            <tr>
+                <td align="center" valign="top" width="100%" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%" height="200"><![endif]-->
+                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
+                        <tr>
+
+<td valign="top" height="280" height="280" background="https://static.cdn.responsys.net/i5/responsysimages/content/codand/PSK_Velkommen_600x280px.jpg" bgcolor="#dcdcd9" style="height:280px; width: 600px; background-image:url('https://static.cdn.responsys.net/i5/responsysimages/content/codand/PSK_Velkommen_600x280px.jpg');background-color: #ffffff; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
+    <!--[if gte mso 9]>
+       <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: inline-block; position: absolute; width: 600px; height: 280px; top: 0; left: 0; border: 0; z-index: 1;" src="https://static.cdn.responsys.net/i5/responsysimages/content/codand/PSK_Velkommen_600x280px.jpg" />                             
+        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 600px; height: 280px; top: 0; left: 0; border: 0; z-index: 2;">
+        <v:fill opacity="0%" style="z-index: 1;"/> 
+        <div>                       
+        <![endif]--> 
+     <!-- Containing Table -->
+    
+
+        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+            <tbody>
+                <tr>
+                    <td style="width: 30px; font-size: 1px;" width="30" valign="top" align="left">&nbsp;</td>
+                    <td class="hide" style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                    <td valign="top" align="left">
+                        <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 520px; mso-cellspacing: 0; mso-padding-alt: 0;" width="520" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                            <tbody>
+                                <tr>
+                                    <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="hide" style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                </tr>
+
+                                <tr>
+                                    <td valign="top" align="left">
+                                        <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                            <tbody>
+                                                <tr>
+
+                            <td class="banner-text" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: bold; font-size: 30px; line-height: 34px; color: #FFFFFF; text-overflow: ellipsis; mso-line-height-rule: exactly;" valign="top" align="left">
+                                                       block imagefull width text <span style="color:#FFA500;">orange</span> !
+
+                                                    </td>
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="font-size: 1px; height: 70px; line-height: 70px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="font-size: 1px; height: 70px; line-height: 70px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </td>
+                    <td style="width: 30px; font-size: 1px;" width="30" valign="top" align="left">&nbsp;</td>
+                    <td class="hide" style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    
+     <!-- Containing Table END-->
+        <!--[if gte mso 9]>   
+      </div></v:fill></v:rect><![endif]--> 
+</td>
+
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+
+            </tr>
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||| END BACKGROUND FULL WIDTH + TEXT ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||| BACKGROUND FULL WIDTH + TEXT DARK * ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+            <tr>
+                <td align="center" valign="top" width="100%" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%" height="200"><![endif]-->
+                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
+                        <tr>
+
+                            <td valign="top" height="280" height="280" background="http://static.cdn.responsys.net/i5/responsysimages/privats/contentlibrary/contenteditor/contentBlocks/ImageLiveURLHere" bgcolor="#dcdcd9" style="height:280px; width: 600px; background-image:url('https://static.cdn.responsys.net/i5/responsysimages/content/codand/PSK_Velkommen_600x280px.jpg');background-color: #ffffff; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+                            
+                                <!--[if gte mso 9]>
+                                   <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: inline-block; position: absolute; width: 600px; height: 280px; top: 0; left: 0; border: 0; z-index: 1;" src="https://static.cdn.responsys.net/i5/responsysimages/content/codand/PSK_Velkommen_600x280px.jpg" />                             
+                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 600px; height: 280px; top: 0; left: 0; border: 0; z-index: 2;">
+                                    <v:fill opacity="0%" style="z-index: 1;"/> 
+                                    <div>                       
+                                    <![endif]--> 
+                                 <!-- Containing Table -->
+                                
+
+                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 600px; mso-cellspacing: 0; mso-padding-alt: 0;" width="600" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 30px; font-size: 1px;" width="30" valign="top" align="left">&nbsp;</td>
+                                                <td class="hide" style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                <td valign="top" align="left">
+                                                    <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 520px; mso-cellspacing: 0; mso-padding-alt: 0;" width="520" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td class="hide" style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td valign="top" align="left">
+                                                                    <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                        <tbody>
+                                                                            <tr>
+
+                                                                                <td class="banner-text" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: bold; font-size: 30px; line-height: 34px; color: #4F5250; text-overflow: ellipsis; mso-line-height-rule: exactly;" valign="top" align="left">
+                                                                                    block <span style="color:#FFA500;">image full width text</span> dark
+                                                                                </td>
+
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 70px; line-height: 70px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 70px; line-height: 70px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 30px; font-size: 1px;" width="30" valign="top" align="left">&nbsp;</td>
+                                                <td class="hide" style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                
+                                 <!-- Containing Table END-->
+                                    <!--[if gte mso 9]>   
+                                  </div></v:fill></v:rect><![endif]--> 
+                            </td>
+
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+
+            </tr>
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||| END BACKGROUND FULL WIDTH + TEXT DARK ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||||||||| INSURANCE TYPE ||||||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+            <tr>
+                <td width="100%" valign="top" height="100%" bgcolor="#ededec" align="center">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table class="p100" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#4F5250" align="center">
+                        <tbody>
+                            <tr>
+                                <td style="font-size:0;" valign="top" align="left">
+                                    <!-- ||||||||||||||| BLOCK LEFT |||||||||||||||| -->
+
+                                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation"><tr><td align="left" valign="top" width="400px"><![endif]-->
+                                    <table class="p100" style="width:400px; height:auto; so-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="400" cellspacing="0" cellpadding="0" border="0" bgcolor="#4F5250" align="left">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                                <td valign="top" align="left">
+                                                    <table style="width:100%;font-family: Arial,Helvetica Neue,Helvetica,sans-serif; mso-cellspacing: 0; mso-padding-alt: 0;" class="max-width" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td valign="middle" bgcolor="#4F5250" align="left" width="74px" style="width: 74px;">
+                                                                    <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/2019_PSK_Forsikring_Ikon_RGB.png" alt="Codan" style="display: block; border: 0px; outline: none;" class="" width="59" height="70" border="0">
+                                                                </td>
+                                                                <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 14px; line-height: 18px;" valign="middle" align="left">
+                                                                   block insurance type     
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+
+                                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="200"><![endif]-->
+                                    
+                                    </td>
+                                    <!-- ||||||||||||||| END BLOCK LEFT |||||||||||||||| -->
+                                   
+                                    <!-- ||||||||||||||| BLOCK BUTTON |||||||||||||||| -->
+                                    <td style="font-size:0;" valign="top" align="left">
+                                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation"><tr><td align="left" valign="top" width="200"><![endif]-->
+<table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 200px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="200" cellspacing="0" cellpadding="0" border="0" align="left">
+    <tbody>
+        <tr>
+            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+            <td valign="top" align="center">
+                <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" cellspacing="0" cellpadding="0" border="0" align="right">
+<tbody>
+    <tr>
+        <td style="font-size: 1px; height: 40px; line-height: 40px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+    </tr>
+<tr> 
+        <td style="font-size:0;" valign="top" align="left">
+<!--===================================================-->
+                                                                                                                    <!--|                     BUTTON                     |-->
+                                                                                                                    <!--===================================================-->
+                                                                                                                    <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%; so-cellspacing: 0; mso-padding-alt: 0;" width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+                                                                                                                        <tbody>
+                                                                                                                            <tr>
+                                                                                                                                <td valign="top" align="left">
+                                                                                                                                    <table style="width:100px; background-color: #F7941E; border-collapse: separate !important; color:#0f185a; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600;; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; so-cellspacing: 0; mso-padding-alt: 0;" cellspacing="0" cellpadding="0" border="0" bgcolor="transparent" align="left" role="presentation">
+                                                                                                                                        <tbody>
+                                                                                                                                            <tr>
+                                                                                                                                                <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#0f185a; font-size: 14px; line-height: 100%; mso-line-height-rule: exactly; padding: 8px 15px; vertical-align: middle;" mc:edit="s16 btn 1" valign="top" align="center">
+
+                                                                                                                                                    <!--===================================================-->
+                                                                                                                                                    <!--|                      LINK                      |-->
+                                                                                                                                                    <!--===================================================-->
+                                                                                                                                                    <a target="_blank" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#FFFFFF; font-size: 14px; line-height: 18px; text-align: center; outline: none; text-decoration: none; display: block;" href="https://www.codan.dk/" target="_blank">knap </a>
+
+                                                                                                                                                </td>
+                                                                                                                                            </tr>
+                                                                                                                                        </tbody>
+                                                                                                                                    </table>
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                                    <!--===================================================-->
+                                                                                                                    <!--|                  BUTTON - END                  |-->
+                                                                                                                    <!--===================================================-->
+    </td>
+    </tr> 
+                    <tr>
+                        <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+
+        <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+    </tr>
+</tbody>
+                            </table>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                <!-- ||||||||||||||| END BLOCK BUTTON |||||||||||||||| -->
+
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||||||||| END INSURANCE TYPE ||||||||||||||||||||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    -->
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||| TEXT ON WHITE with link * |||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+                <td width="100%" valign="top" height="100%" bgcolor="#ededec" align="center">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table class="p100" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                <td valign="top" align="left">
+                                    <table style="width:100%;font-family: Arial,Helvetica Neue,Helvetica,sans-serif; mso-cellspacing: 0; mso-padding-alt: 0;" class="max-width" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                                        <tbody><tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: #FFA500; font-size: 13px; line-height: 16px; font-weight: 600; font-size: 20px;" valign="top" align="left">
+                                                block text on white  
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="fcolor:#000000; font-weight: 300; font-size: 12px; line-height: 18px;" valign="top" align="left">
+                                                 block text on white block text on white block text on white block text on white block text on white block text on white
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; font-size: 12px; " valign="top" align="left">
+                                                <a class="no-underline" style="color:#F7941E; text-decoration: none; font-weight: 600;" href="https://www.privatsikring.dk/">link in white</a>
+                                             </td>
+                                        </tr>
+                                         <tr>
+                                            <td valign="top" align="left">
+                                                <br>
+                                            <!--===================================================-->
+                                            <!--|                     BUTTON                     |-->
+                                            <!--===================================================-->
+                                            <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td valign="top" align="left">
+                                                            <table style="background-color: #FFA500; border-collapse: separate !important; color:#0f185a; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600;; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="100" cellspacing="0" cellpadding="0" border="0" bgcolor="transparent" align="left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#0f185a; font-size: 14px; line-height: 100%; mso-line-height-rule: exactly; padding: 8px 15px; vertical-align: middle;" mc:edit="s16 btn 1" valign="top" align="center">
+
+                                                                            <!--===================================================-->
+                                                                            <!--|                      LINK                      |-->
+                                                                            <!--===================================================-->
+                                                                            <a href="#" target="_blank" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 14px; line-height: 18px; text-align: center; outline: none; text-decoration: none; display: block;">knap knap</a>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!--===================================================-->
+                                            <!--|                  BUTTON - END                  |-->
+                                            <!--===================================================-->
+                                        </td>
+                                      </tr>
+                                               <tr>
+                                           <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                    </tbody></table>
+                                    
+                                </td>
+                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||| END TEXT ON WHITE |||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||| TEXT ON GREY light grey *|||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+                <td width="100%" valign="top" height="100%" bgcolor="#ededec" align="center">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table class="p100" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#CCC9C4" align="center">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                <td valign="top" align="left">
+                                    <table style="width:100%;font-family: Arial,Helvetica Neue,Helvetica,sans-serif; mso-cellspacing: 0; mso-padding-alt: 0;" class="max-width" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                                        <tbody><tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: #4F5250; font-size: 13px; line-height: 16px; font-weight: 600; font-size: 20px;" valign="top" align="left">
+                                                block text on grey  
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="fcolor:#4F5250; font-weight: 300; font-size: 12px; line-height: 18px;" valign="top" align="left">
+                                                block text on light grey 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; font-size: 12px; " valign="top" align="left"> 
+                                                <a class="no-underline" style="font-size: 12px; color:#4F5250; text-decoration: none; font-weight: 600" href="https://www.privatsikring.dk/">link in light grey module</a>
+                                            </td>
+                                        </tr>
+                                       <!-- <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>-->
+                                        <tr>
+                                            <td valign="top" align="left">
+                                                <br>
+                                            <!--===================================================-->
+                                            <!--|                     BUTTON                     |-->
+                                            <!--===================================================-->
+                                            <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td valign="top" align="left">
+                                                            <table style="background-color: #FFA500; border-collapse: separate !important; color:#0f185a; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600;; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="100" cellspacing="0" cellpadding="0" border="0" bgcolor="transparent" align="left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#0f185a; font-size: 14px; line-height: 100%; mso-line-height-rule: exactly; padding: 8px 15px; vertical-align: middle;" mc:edit="s16 btn 1" valign="top" align="center">
+
+                                                                            <!--===================================================-->
+                                                                            <!--|                      LINK                      |-->
+                                                                            <!--===================================================-->
+                                                                            <a href="#" target="_blank" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 14px; line-height: 18px; text-align: center; outline: none; text-decoration: none; display: block;">knap</a>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!--===================================================-->
+                                            <!--|                  BUTTON - END                  |-->
+                                            <!--===================================================-->
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                    </tbody></table>
+
+                                </td>
+                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||| END TEXT ON GREY |||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||| TEXT ON DARK grey with link ** |||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+                <td width="100%" valign="top" height="100%" bgcolor="#ededec" align="center">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                    <table class="p100" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#4F5250" align="center">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                <td valign="top" align="left">
+                                    <table style="width:100%;font-family: Arial,Helvetica Neue,Helvetica,sans-serif; mso-cellspacing: 0; mso-padding-alt: 0;" class="max-width" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                                        <tbody><tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: #ffffff; font-size: 13px; line-height: 16px; font-weight: 600; font-size: 20px;" valign="top" align="left">
+                                                block text on dark  
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:#ffffff; font-weight: 300; font-size: 12px; line-height: 18px;" valign="top" align="left">
+                                                 block text on dark
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="height-auto img-max" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; font-size: 12px; " valign="top" align="left">                                            
+                                                 <a class="no-underline" style="color:#F7941E; text-decoration: none; font-weight: 600;" href="https://www.privatsikring.dk/">link1</a>
+                                            </td>
+                                        </tr>
+                                      <!--  <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>-->
+                                        <tr>
+                                            <td valign="top" align="left">
+                                                <br>
+                                            <!--===================================================-->
+                                            <!--|                     BUTTON                     |-->
+                                            <!--===================================================-->
+                                            <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td valign="top" align="left">
+                                                            <table style="background-color: #FFA500; border-collapse: separate !important; color:#0f185a; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600;; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" width="100" cellspacing="0" cellpadding="0" border="0" bgcolor="transparent" align="left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#0f185a; font-size: 14px; line-height: 100%; mso-line-height-rule: exactly; padding: 8px 15px; vertical-align: middle;" mc:edit="s16 btn 1" valign="top" align="center">
+
+                                                                            <!--===================================================-->
+                                                                            <!--|                      LINK                      |-->
+                                                                            <!--===================================================-->
+                                                                            <a href="#" target="_blank" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 14px; line-height: 18px; text-align: center; outline: none; text-decoration: none; display: block;">knap</a>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!--===================================================-->
+                                            <!--|                  BUTTON - END                  |-->
+                                            <!--===================================================-->
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                    </tbody></table>
+
+                                </td>
+                                <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left";>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||| END TEXT ON DARK |||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| 1-2-3 STEPS ||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+            <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="600"><![endif]-->
+                <table class="p100" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" bgcolor="#F7941E">
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 0;" valign="top" align="left">
+                                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#F7941E"><tr><td align="left" width="600" bgcolor="#F7941E"><![endif]-->
+                                <table cellspacing="0" cellpadding="0" border="0" align="left">
+                                    <tbody>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                            <td valign="top" align="left" >
+                                                <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 560px; mso-cellspacing: 0; mso-padding-alt: 0;" width="560" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign="top" align="left" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 700; color:#ffffff; font-size: 20px; line-height: 40px; padding:0; margin:0;">
+                                                                    block text and yellow step box
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            </td>
+                        </tr>
+                        <tr>
+                             <td style="font-size: 0;" valign="top" align="center">
+
+                            <!-- ||||||||||||||| BLOCK 1 |||||||||||||||| -->
+                            <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="left" valign="top" width="200"><![endif]-->
+                                <div class="p100" style="width: 100%;max-width: 200px;display: inline-block; vertical-align: top;">
+                                    <table class="p100" role="presentation" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;width: 200px;" width="200" cellspacing="0" cellpadding="0" border="0" align="center">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="howto number" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 60px; line-height: 56px;" valign="top" align="left">
+                                                                1
+                                                            </td>
+                                                            <td style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                            <td class="no-border howto text" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#ffffff; font-size: 12px; line-height: 18px;" valign="top" align="left">
+                                                                block text and yellow step box1
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+
+                                            <td style="width: 20px; font-size: 1px; border-right: 1px solid #ffffff;" width="20" valign="top" align="left" class="no-border">&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- ||||||||||||||| END BLOCK 1 |||||||||||||||| -->
+
+                            <!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="200"><![endif]-->
+
+                            <!-- ||||||||||||||| BLOCK 2 |||||||||||||||| -->
+                            <div class="p100" style="width: 100%;max-width: 200px;display: inline-block; vertical-align: top;">
+                                    <table class="p100" role="presentation" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;width: 200px;" width="200" cellspacing="0" cellpadding="0" border="0" align="center">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="howto number" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 60px; line-height: 56px;" valign="top" align="left">
+                                                                2
+                                                            </td>
+                                                            <td style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                            <td class="no-border howto text" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#ffffff; font-size: 12px; line-height: 18px;" valign="top" align="left">
+                                                                    block text and yellow step box2
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+
+                                            <td style="width: 20px; font-size: 1px; border-right: 1px solid #ffffff;" width="20" valign="top" align="left" class="no-border">&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- ||||||||||||||| END BLOCK 2 |||||||||||||||| -->
+
+                            <!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="200"><![endif]-->
+
+                            <!-- ||||||||||||||| BLOCK 3 |||||||||||||||| -->
+
+                            <div class="p100" style="width: 100%;max-width: 200px;display: inline-block; vertical-align: top;">
+                                    <table class="p100" role="presentation" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;width: 200px;" width="200" cellspacing="0" cellpadding="0" border="0" align="center">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 160px; mso-cellspacing: 0; mso-padding-alt: 0;" width="160" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="howto number" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 60px; line-height: 56px;" valign="top" align="left">
+                                                                3
+                                                            </td>
+                                                            <td style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                            <td class="no-border howto text" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#ffffff; font-size: 14px; line-height: 18px;" valign="top" align="left">
+                                                                block text and yellow step box3
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            <!-- ||||||||||||||| END BLOCK 3 |||||||||||||||| -->
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="hide" style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+            </td>
+        </tr>
+            
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END 1-2-3 STEPS ||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| CUSTOMER SERVICE & TRUSTPILOT **||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+            <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600"><tr><td align="center" valign="top" width="600"><![endif]-->
+
+                <table class="p100" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" bgcolor="#4F5250">
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 0;" valign="top" align="center">
+                                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="left" valign="top" width="300"><![endif]-->
+
+                                <div class="p100" style="width: 100%;max-width: 300px;display: inline-block;">
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: bold; color:#FFFFFF; font-size: 18px; line-height: 22px; " valign="top" align="left">                 
+                                                                Ring til kundeservice
+                                                                <br>på <span style="color:#F7941E; font-weight: 600;">70 11 17 07</span>
+                                                            </td>
+                                                                <td valign="top" align="right">
+                                                                    <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/2019_PSK_Kontakt_Ikon_RGB.png" alt="Codan" style="display: block; border: 0px;" width="50" height="43" border="0">
+                                                                </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;  border-right: 2px solid #ffffff;" width="20" valign="top" align="left" class="no-border">&nbsp;</td>
+                                    </table>
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 13px; line-height: 18px;" valign="top" align="left">
+                                                                 Mandag - torsdag
+                                                                    <br> Fredag
+                                                            </td>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 13px; line-height: 18px;" valign="top" align="right">
+                                                                08.00 - 19.00
+                                                                <br> 08.00 - 18.00
+                                                                <br>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;  border-right: 2px solid #ffffff;" width="20" valign="top" align="left" class="no-border">&nbsp;</td>
+                                    </table>
+                                </div>
+                                <!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="300"><![endif]-->
+
+                                <div class="p100" style="width: 100%;max-width: 300px;display: inline-block; vertical-align: top;">
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 18px; line-height: 22px; " valign="top" align="left">
+                                                                 Privatsikring på
+                                                                <br> Trustpilot
+                                                            </td>
+                                                                <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; color:#FFFFFF;" valign="top" align="right">
+                                                                    <a href="https://dk.trustpilot.com/review/www.codan.dk" target="_blank"><img src="https://static.cdn.responsys.net/i5/responsysimages/codand/contentlibrary/template_apr_2017/img/trustpilot-icon.png" alt="Codan" style="display: block; border: 0px;" width="38" height="38" border="0"></a>
+                                                                </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                    </table>
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 13px; line-height: 18px;" valign="top" align="left">
+                                                                    <a style="color:#FFFFFF; text-decoration: none;" href="https://dk.trustpilot.com/review/www.codan.dk" target="_blank">Læs, hvad andre siger, og del dine egne oplevelser med Privatsikring på Trustpilot</a>
+                                                                </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                    </table>
+                                </div>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+            </td>
+        </tr>
+            
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END CUSTOMER SERVICE & TRUSTPILOT ||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| BLOCK SUPPORT Ring mig op BEGIN *|||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+            <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600"><tr><td align="center" valign="top" width="600"><![endif]-->
+
+                <table class="p100" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" bgcolor="#4F5250">
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 0;" valign="top" align="center">
+                                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="left" valign="top" width="300"><![endif]-->
+
+                                <div class="p100" style="width: 100%;max-width: 300px;display: inline-block;">
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: bold; color:#FFFFFF; font-size: 20px; line-height: 22px;" valign="top" height="70" align="left">
+                                                                Hør mere om vores <br>løsninger på
+                                                                <a href="tel:70111707" style="color:#F7941E; font-weight: 600;text-decoration:none;">70 11 17 07</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;  border-right: 2px solid #ffffff;" width="20" valign="top" align="left" class="no-border">&nbsp;</td>
+                                    </table>
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 13px; line-height: 18px;" valign="top" align="left">
+                                                                 Mandag - torsdag
+                                                                    <br> Fredag
+                                                            </td>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 13px; line-height: 18px;" valign="top" align="right">
+                                                                08.00 - 19.00
+                                                                <br> 08.00 - 18.00
+                                                                <br>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;  border-right: 2px solid #ffffff;" width="20" valign="top" align="left" class="no-border">&nbsp;</td>
+                                    </table>
+                                </div>
+                                <!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="300"><![endif]-->
+
+                                <div class="p100" style="width: 100%;max-width: 300px;display: inline-block; vertical-align: top;">
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#FFFFFF; font-size: 20px; line-height: 22px; " valign="top" align="left">
+                                                                 Vi kan også
+                                                                <br>ringe dig op
+                                                            </td>
+                                                                <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; color:#FFFFFF;" valign="top" align="right">
+                                                                    <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/2019_PSK_Kontakt_Ikon_RGB.png" alt="Codan" style="display: block; border: 0px;" width="50" height="43" border="0">
+                                                                </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                    </table>
+                                    <table class="p100" align="right" border="0" cellpadding="0" cellspacing="0" width="300" style="width: 300px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                                        <tr>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                                            <td valign="top" align="center">
+                                                <table class="p100" style="width: 258px; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0;mso-cellspacing: 0; mso-padding-alt: 0;" width="258" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" align="left">                                                                 <!--===================================================-->
+                                                                <!--|                     BUTTON                     |-->
+                                                                <!--===================================================-->
+                                                                <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td valign="top" align="left">
+                                                                                <table style="background-color: #F7941E; border-collapse: separate !important; color:#0f185a; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600;; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation" cellspacing="0" cellpadding="0" border="0" bgcolor="transparent" align="left">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#0f185a; font-size: 14px; line-height: 100%; mso-line-height-rule: exactly; padding: 8px 15px; vertical-align: middle;" mc:edit="s16 btn 1" valign="top" align="center">
+
+                                                                                                <!--===================================================-->
+                                                                                                <!--|                      LINK                      |-->
+                                                                                                <!--===================================================-->
+                                                                                                <a href="https://www.privatsikring.dk/kundeservice/kontakt-os" target="_blank" style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#ffffff; font-size: 14px; line-height: 18px; text-align: center; outline: none; text-decoration: none; display: block;">Ring mig op</a>
+
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <!--===================================================-->
+                                                                <!--|                  BUTTON - END                  |-->
+                                                                <!--===================================================-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-size: 1px; height: 30px; line-height: 30px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                                    </table>
+                                </div>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+            </td>
+        </tr>
+            
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| BLOCK SUPPORT Ring mig op END ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+
+
+
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX * ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+ <tr>
+                <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                    <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td align="center" valign="top" width="100%"><![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                        <tr>
+                            <td height="22" bgcolor="#ededec"></td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        
+
+            <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||| END MAIN CONTENT GOES HERE ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| SOCIAL MEDIA & COMPANY INFO ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+            <td align="center" height="100%" valign="top" width="100%" bgcolor="#ededec">
+                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation"><tr><td bgcolor="#ededec" align="center" valign="top" width="600"><![endif]-->
+
+                <table class="p100" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="600" style="width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+
+                    <tr>
+                        <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+
+                        <td valign="top" align="left">
+
+                            <table style="width:100%;font-family: Arial,Helvetica Neue,Helvetica,sans-serif; mso-cellspacing: 0; mso-padding-alt: 0;" class="max-width" width="100%" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 600; color:#4F5250; font-size: 14px; line-height: 22px;">Find os på sociale medier</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td valign="top" align="left">
+                                            <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 360px; mso-cellspacing: 0; mso-padding-alt: 0;" width="360" cellspacing="0" cellpadding="0" border="0" role="presentation">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="font-size: 1px; height: 12px; line-height: 12px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" align="left">
+                                                            <!--[if gte mso 9]>
+                                              <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                              <tr>
+                                              <td align="left" valign="top">
+                                              <![endif]-->
+                                                            <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 55px; mso-cellspacing: 0; mso-padding-alt: 0;" width="55" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colspan="2" style="font-size: 1px; height: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="width: 39px;" width="39" valign="top" align="left">
+                                                                            <!--===================================================-->
+                                                                            <!--|                   SOCIAL LINK                   |-->
+                                                                            <!--===================================================-->
+                                                                            <a href="https://www.facebook.com/privatsikringas" style="border: none; color: inherit; display: block; font-family: 'Open Sans', sans-serif; font-size: inherit; outline: none; text-decoration: none; width: 39px;">
+                                                                                <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/ikon_facebook.png" style="-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; text-decoration: none; width: 39px;" editable="true" width="39" border="0">
+                                                                            </a>
+                                                                        </td>
+                                                                        <td style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <!--[if gte mso 9]>
+                                              </td>
+                                              <td align="left" valign="top">
+                                              <![endif]-->
+                                                            <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 55px; mso-cellspacing: 0; mso-padding-alt: 0;" width="55" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colspan="2" style="font-size: 1px; height: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="width: 32px;" width="32" valign="top" align="left">
+                                                                            <!--===================================================-->
+                                                                            <!--|                   SOCIAL LINK                   |-->
+                                                                            <!--===================================================-->
+                                                                            <a href="https://www.linkedin.com/company/privatsikring-a-s/" style="border: none; color: inherit; display: block; font-family: 'Open Sans', sans-serif; font-size: inherit; outline: none; text-decoration: none; width: 39px;">
+                                                                                <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/ikon_linkedin.png" style="-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; text-decoration: none; width: 39px;" editable="true" width="39" border="0">
+                                                                            </a>
+                                                                        </td>
+                                                                        <td style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <!--[if gte mso 9]>
+                                              </td>
+                                              <td align="left" valign="top">
+                                              <![endif]-->
+                                                            <table style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 55px; mso-cellspacing: 0; mso-padding-alt: 0;" width="55" cellspacing="0" cellpadding="0" border="0" align="left" role="presentation">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colspan="2" style="font-size: 1px; height: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="width: 32px;" width="32" valign="top" align="left">
+                                                                            <!--===================================================-->
+                                                                            <!--|                   SOCIAL LINK                   |-->
+                                                                            <!--===================================================-->
+                                                                            <a href="https://dk.trustpilot.com/review/www.privatsikring.dk" style="border: none; color: inherit; display: block; font-family: 'Open Sans', sans-serif; font-size: inherit; outline: none; text-decoration: none; width: 39px;">
+                                                                                <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/ikon_trustpilot.png" style="-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; text-decoration: none; width: 39px;" editable="true" width="39" border="0">
+                                                                            </a>
+                                                                        </td>
+                                                                        <td style="width: 10px; font-size: 1px;" width="10" valign="top" align="left">&nbsp;</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                            <!--[if gte mso 9]>
+                                              </td>
+                                              </tr>
+                                              </table>
+                                              <![endif]-->
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+
+                                     <!-- |||||||||||||||||||||||||||||||||||||||||||||
+                                    ||||||||||||||||||||| THIN 1PX LINE  ||||||||||||||
+                                    ||||||||||||||||||||||||||||||||||||||||||||||||||
+                                    -->
+                                    <tr>
+                                        <td style="border-bottom: 1px solid #4F5250; font-size: 1px; height: 1px; line-height: 1px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+                                    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||
+                                    ||||||||||||||||||||| END THIN 1PX LINE ||||||||||||||
+                                    ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                                    -->
+
+                                    <!-- |||||||||||||||||||||||||||||||||||||||||||||
+                                    ||||||||||||||||||||| COMPANY INFO ||||||||||||||
+                                    ||||||||||||||||||||||||||||||||||||||||||||||||||
+                                    -->                                   
+                                    <tr>
+                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: bold; color:#4F5250; font-size: 12px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+                                            Forsikringsselskabet Privatsikring A/S
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#4F5250; font-size: 12px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+                                             Gammel Kongevej 60
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#4F5250; font-size: 12px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+                                             DK-1790 København V
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#4F5250; font-size: 12px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+                                            CVR 2507 1409 
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#4F5250; font-size: 12px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+                                            Tlf. 70 11 17 07
+                                        </td>
+                                    </tr>
+                                    
+                                     <tr>
+                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#4F5250; font-size: 12px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+
+                                            <a href="https://www.privatsikring.dk/" class="text bullet" style="border: none; color:#4F5250; display: block; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 13px;line-height: 16px; outline: none; text-decoration: none;" target="_blank">privatsikring.dk
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td style="font-size: 1px; height: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td valign="top" align="left">
+                                            <table class="p100" style="margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%; mso-cellspacing: 0; mso-padding-alt: 0;" width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-weight: 300; color:#4F5250; font-size: 13px; line-height: 16px; mso-line-height-rule: exactly;" valign="top" align="left">
+                                                            <a href="https://www.privatsikring.dk/pages/afmeld-nyhedsbrev.aspx?type=marketing&kundeid=11223344&email=" class="text bullet" style="border: none; color:#4F5250; display: block; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 12px;line-height: 16px; outline: none; text-decoration: underline;" target="_blank">Afmeld
+                                                            </a>
+                                                        </td>
+                                                        <td valign="top" align="right">
+                                                            <img src="http://static.cdn.responsys.net/i5/responsysimages/content/privats/PSK_Logo_RGB_Grey.png" >
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="font-size: 1px; height: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                                    </tr>
+                                    <!-- ||||||||||||||||||||||||||||||||||||||||||||||||
+                                    ||||||||||||||||||||| END COMPANY INFO ||||||||||||||
+                                    |||||||||||||||||||||||||||||||||||||||||||||||||||||
+                                    -->
+
+                                </tbody>
+                            </table>
+                        </td>
+
+                        <td style="width: 20px; font-size: 1px;" width="20" valign="top" align="left">&nbsp;</td>
+                    </tr>
+                </table>
+
+                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+            </td>
+        </tr>
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END SOCIAL MEDIA & COMPANY INFO ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+        <!-- ||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+        <tr>
+            <td align="center" height="100%" valign="top" width="100%" class="mobile-padding" bgcolor="#ededec">
+                <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" height="22" role="presentation" ><tr><td align="center" valign="top" width="600" height="22"><![endif]-->
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ededec" width="100%" height="22" style="max-width:600px; mso-cellspacing: 0; mso-padding-alt: 0;" role="presentation">
+                    <tr>
+                        <td height="22"></td>
+                    </tr>
+                </table>
+
+                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+            </td>
+        </tr>
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||| END GREY SPACE 22PX ||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-->
+
+        </table>
+    </div>
+</body>
+
+</html>
